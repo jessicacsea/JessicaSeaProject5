@@ -1,0 +1,12 @@
+Pseudo code
+
+- user chooses what type of photo they want to see
+- make a call to the nasa API filtering photos from the last 3 years and only images
+- save users choice when they press submit
+- filter the photos again by user choice
+- randomize the list of photos 
+- pick one photo within the array
+- grab image url and description
+  - put image as entire background
+  - have small info icon on the bottom right with description opening up when clicked
+    - pull the description portion under the object 
