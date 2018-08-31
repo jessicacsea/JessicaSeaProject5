@@ -58,3 +58,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+// turnary loop to only render the results page when the input has been entered (look at suzettes strikethrough code along), so get it to change a true/false on the state when clicked so it will display
+// so only when it's state is true, then it will display
