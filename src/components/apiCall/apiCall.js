@@ -24,7 +24,7 @@ export default function apiCall (searchText) {
 
 // should i just put apiCall in the Inputpage? want to make sure my api call is correct too - COMPLETED
 
-// want to be able to get 5 random pictures, how do i do that? (FOR LOOPS?)
+// want to be able to get 5 random pictures, how do i do that? (FOR LOOPS?) - COMPLETE
 
 
 

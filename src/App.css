@@ -5,10 +5,12 @@
 
 .mainPage {
   background-color: royalblue;
+  position: relative;
 }
 
 .inputPage {
-  background-color: lightblue
+  background-color: lightblue;
+  position: relative;
 }
 
 .resultsPage {
@@ -17,4 +19,16 @@
 
 h1, h2, h3 {
   margin: 0;
+}
+
+.zoomIn {
+  height: 100vh;
+  width: 100vh;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 100;
+}
+
+.violet, .blue {
+  position: absolute;
+  bottom: 0;
 }

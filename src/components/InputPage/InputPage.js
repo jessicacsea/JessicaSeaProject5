@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import apiCall from '../apiCall/apiCall'
+import scrollToComponent from 'react-scroll-to-component';
+
 
 class InputPage extends Component {
   constructor() {
@@ -50,7 +51,9 @@ class InputPage extends Component {
             placeholder="Eg: Stars, Black hole, etc" 
             value={this.state.searchText} 
             onChange={this.onTextChange} />
-          <button onClick={this.scrollToElement}>Let's get out of this WORLD!</button>
+          <button onClick={() => scrollToComponent(this.Blue, { offset: 0, align: 'top', duration: 500 })}>Let's get out of this WORLD!</button>
+          <section className='blue' ref={(section) => { this.Blue = section; }}></section>
+          
         </form> 
       </div>
     )
