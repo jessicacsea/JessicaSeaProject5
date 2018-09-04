@@ -37,7 +37,7 @@ class ResultsPage extends Component {
 
     return (
       <div className="resultsPage">
-        <h2>Houston... we have some photos</h2>
+        <h2 className="final"><span className="houston">Houston...</span> We have some photos</h2>
         <h3>Keywords: {this.props.keyword}</h3>
         <ul>
           {this.props.newResult.map((img) => {

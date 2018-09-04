@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import scrollToComponent from 'react-scroll-to-component';
 
 //// my components////
 import MainPage from './components/MainPage/MainPage';

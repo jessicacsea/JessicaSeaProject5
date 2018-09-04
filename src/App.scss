@@ -1,0 +1,17 @@
+@import 'components/setup.scss';
+@import 'components/MainPage/MainPage.scss';
+@import 'components/InputPage/InputPage.scss';
+@import 'components/ResultsPage/ResultsPage.scss';
+@import 'components/typography.scss';
+
+html {
+  height: 100%;
+}
+.inputPage, .mainPage {
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  max-width: 100%;
+}

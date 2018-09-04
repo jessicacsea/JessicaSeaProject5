@@ -1,0 +1,109 @@
+// font-family: 'Playfair Display', serif;
+// font-family: 'Raleway', sans-serif;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 6.5rem;
+  text-shadow: 3px 3px #0b3d91;
+}
+
+button {
+  font-size: 1.8rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin: 2%;
+}
+
+p {
+  color: black;
+  font-size: 2rem;
+  margin: 1% 0;
+  text-align: center;
+}
+
+@media (max-width: 840px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  h1 {
+    align-self: end;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 4rem
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 510px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 445px) {
+  h3 {
+    text-align: center;
+  }
+  .houston {
+    display: block;
+  }
+  .zoomIn {
+    padding: 3%;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .mainButt {
+    width: 35%;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+}

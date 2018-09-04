@@ -26,17 +26,7 @@ class InputPage extends Component {
     this.setState({
       searchText: ''
     })
-    }
-  
-
-  // scrollToElement = (e) => {
-  //   e.preventDefault();
-  //   console.log('button was clicked');
-  //   this.setState({
-  //     index: 1
-  //   });
-  //   this.refs[e].scrollIntoView({block: 'end', behavior: 'smooth'});
-  // }
+  }
 
   render() {
     return (
@@ -51,7 +41,7 @@ class InputPage extends Component {
             placeholder="Eg: Stars, Black hole, etc" 
             value={this.state.searchText} 
             onChange={this.onTextChange} />
-          <button onClick={() => scrollToComponent(this.Blue, { offset: 0, align: 'top', duration: 500 })}>Let's get out of this WORLD!</button>
+          <button onClick={() => scrollToComponent(this.Blue, { offset: 0, align: 'top', duration: 500 })} className="inputButt">Let's get out of this WORLD!</button>
           <section className='blue' ref={(section) => { this.Blue = section; }}></section>
           
         </form> 
